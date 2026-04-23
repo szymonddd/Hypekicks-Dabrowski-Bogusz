@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel Administratora"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText android:id="@+id/editBrand" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Marka (np. Nike)"/>
+    <EditText android:id="@+id/editModel" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Model"/>
+    <EditText android:id="@+id/editYear" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Rok"
+        android:inputType="number"/>
+    <EditText android:id="@+id/editPrice" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Cena"
+        android:inputType="numberDecimal"/>
+    <EditText android:id="@+id/editUrl" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Link do zdjęcia"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DODAJ DO BAZY"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przytrzymaj, aby usunąć:"
+        android:layout_marginTop="24dp"
+        android:textSize="12sp" />
+
+    <ListView
+        android:id="@+id/adminListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
