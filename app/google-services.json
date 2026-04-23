@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106155200429",
+    "project_id": "hypekicks-57b10",
+    "storage_bucket": "hypekicks-57b10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106155200429:android:ee9b6084dc474e428c1b24",
+        "android_client_info": {
+          "package_name": "com.example.hypekicks_dabrowski_bogusz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv5U5mL5Xhb7GFUkFwLKEXa-0tHkyGFAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
